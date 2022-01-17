@@ -5,7 +5,7 @@
 if (EJERCICIO === 4) {
   (() => {
     readline.question(
-      "Ingrese un número entero para calcular factorial:",
+      "Ingrese un número entero para calcular factorial: ",
       (input) => {
         let num = 1;
         for (let i = 2; i <= input; i++) {
