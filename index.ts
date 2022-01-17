@@ -13,4 +13,4 @@ console.log(`
 `);
 
 // Indique el número de ejercicio a ejecutar
-const EJERCICIO = 5;
+const EJERCICIO = 6;
