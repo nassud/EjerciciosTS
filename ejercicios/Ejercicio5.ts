@@ -6,7 +6,7 @@
 if (EJERCICIO === 5) {
   (() => {
     readline.question(
-      "Ingrese un número entero para contar dígitos:",
+      "Ingrese un número entero para contar dígitos: ",
       (input) => {
         console.log(input.length);
       }

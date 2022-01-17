@@ -9,7 +9,7 @@
 // @ts-ignore
 if (EJERCICIO === 3) {
   (() => {
-    readline.question("Ingrese un número entero:", (input) => {
+    readline.question("Ingrese un número entero: ", (input) => {
       let num = +input;
       console.log(num + ",");
       while (num > 1) {

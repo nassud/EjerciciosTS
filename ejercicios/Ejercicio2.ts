@@ -7,7 +7,7 @@ if (EJERCICIO === 2) {
   (() => {
     let valores = null;
     readline.question(
-      "Ingrese un intervalo entero x,y donde x < y:",
+      "Ingrese un intervalo entero x,y donde x < y: ",
       (input) => {
         valores = (input as string).split(",");
         if (valores[0] < valores[1]) {
